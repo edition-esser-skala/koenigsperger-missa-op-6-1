@@ -1,0 +1,36 @@
+composer:
+  last: Königsperger
+  first: Marianus
+title: Missa
+id: op. 6/1
+genre: mass
+scoring: S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  C1:
+    siglum: D-Mbs
+    shelfmark: 4 Mus.pr. 89.703
+    date: 1744
+    rism: 990034052
+    url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11138095-3
+    license: custom (non-commercial use only)
+    principal: true
+    notes: Philipp Ludwig Klaffschenckel, Augsburg; only org
+  C2:
+    siglum: D-Mbs
+    shelfmark: 4 Mus.pr. 14159
+    date: 1744
+    rism: 990034052
+    url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11145422-5
+    license: custom (non-commercial use only)
+    notes: only vl 1 and 2
+  C3:
+    siglum: A-KR
+    shelfmark: none
+    date: 1744
+    rism: 990034052
+    license: public domain
+    notes: all parts
+imslp:
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
