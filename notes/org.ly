@@ -71,3 +71,91 @@ KyrieBassFigures = \figuremode {
   r2 r8 \bo <[6]> <4> \bc <[3]> %30
   r1 %31 finis
 }
+
+GloriaOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoGloria
+    \mvTr c8\fE-\tutti c' g g c,4 r8 g'
+    c g c c, g' g g g
+    c c, g' g, c4 r8 \mvTr c\p-\solo
+    f c c g g c r c
+    f c c g g c g' g %5
+    c c,16 d e8 c g' a h g
+    c e, g g, c e-! f-! g-!
+    \mvTr c,\fE-\tutti d e c g' a h g
+    c4 c,8 c g' a h g
+    c g c g c c, g' g, %10
+    c c' h a g a h g
+    d d d d g4. g,8
+    d'4 d fis g
+    d e8 e d4 g
+    d8 d16 e fis8 d g a h g %15
+    d d d d g4. g,8
+    d' e fis d g g, h c
+    d4 d, g8 g'16-! f!-! e8 \mvTr c\p-\solo
+    f c c g g c16 d e8 c
+    f c c g g c16 d e8 c %20
+    g4 c8 r c4 g
+    c f g8 g,16 a h8 c
+    f c c g g c16 d e8 c
+    f c c g g c c4
+    e e8 e f f f f %25
+    g f e c g' g,16 a h8 c
+    f c c g g c16 d e8 c
+    f c c g g c16 d e8 c
+    f e f d g f e c
+    g' f g g, c c' h g %30
+    c, c' h g a g f d
+    g a h c h c h a
+    g a h c f, d g f
+    e d c h c e g g,
+    c \mvTr c\fE-\tutti c g' c8. c16 c8 g %35
+    c c, c c g' g e e
+    f e d e16 f g8 f e f16 g
+    a4 r8 d, g c g g,
+    c4 g' c, r\fermata \bar "|." %39 finis
+  }
+}
+
+GloriaBassFigures = \figuremode {
+  r4 <5>2.
+  r1
+  r4 <4>8 <3> r2
+  r4. <7 5>8 r2
+  r4. <7 5>8 r4 <5> %5
+  r1
+  r4 <4>8 <3> r2
+  <8 5>1
+  r
+  r2. <4>8 <3> %10
+  r q q q r2
+  <_+>1
+  q2 <6 5>
+  <_+>4 <_!> <_+>2
+  q4 <6>2. %15
+  <_+>1
+  q2. <6>4
+  <5 4> <\t _+>2 <[6]>8 <5>
+  r4. <7 5>8 r4 <6>
+  r4. <7 5>8 r4 <[6]> %20
+  r2. <7 5>4
+  r <6>8 <5> r4. <5>8
+  r4. <7 5>8 r4 <6>
+  r4. <7 5>8 r2
+  <3>4 <6>2 q8 <5> %25
+  r4 <6>2 r8 <5>
+  r4. <7 5>8 r4 <[6]>
+  r4. <7 5>8 r4 <[6]>
+  r2. <6>4
+  <4> <3>2 <6>4 %30
+  r q <_!> <6>8 <[7]>
+  r2 <6>
+  r1
+  <6>4. <5>4 <[6]>8 <4> <3>
+  <8 5>1 %35
+  r2. <6>8 <5>
+  r4 <8 3>2 q4
+  <3>4. q8 <7 5>4 <4>8 <3>
+  r1 %39 finis
+}

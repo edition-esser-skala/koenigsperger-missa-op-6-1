@@ -7,3 +7,11 @@ KyrieClarinoI = {
     
   }
 }
+
+GloriaClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoGloria
+    
+  }
+}

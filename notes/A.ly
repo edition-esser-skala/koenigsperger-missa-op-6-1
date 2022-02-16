@@ -43,3 +43,55 @@ KyrieAltoLyrics = \lyricmode {
   _ son, e -- lei -- %30
   son, e -- lei -- son. %31 finis
 }
+
+GloriaAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoGloria
+    \mvTr g'8\fE^\tuttiE g g g g4 r8 g
+    g g g g g g16 g g8 g
+    g g g4 g r
+    R1*4 %7
+    \mvTr g4\fE^\tuttiE g8 g g4 g8 g
+    g4 g8 g g g g g
+    g g g g g g g g16 g %10
+    g8 g r4 g g8 g
+    fis4 fis g4. g8
+    fis4 fis a g
+    fis g8 g d4 d
+    fis r g g8 g %15
+    fis4 fis g4. d8
+    fis4 fis g d8 g
+    g4( fis) d r
+    R1*16 %34
+    r8 \mvTr g\fE^\tuttiE g g g8. g16 g8 g %35
+    g g16 g g8 g g g g g
+    f4. g16[ a] g4. a16[ h]
+    a4 r8 f( d) g g4
+    g g g r\fermata \bar "|." %39 finis
+  }
+}
+
+GloriaAltoLyrics = \lyricmode {
+  Et in ter -- ra pax, in
+  ter -- ra pax ho -- mi -- ni -- bus bo -- nae
+  vo -- lun -- ta -- tis.
+
+  Gra -- ti -- as a -- gi -- mus, %8
+  a -- gi -- mus ti -- bi pro -- pter
+  ma -- gnam, pro -- pter ma -- gnam glo -- ri -- am %10
+  tu -- am. Do -- mi -- ne
+  De -- us, Rex coe --
+  le -- stis, De -- us
+  Pa -- ter o -- mni -- po --
+  tens, Do -- mi -- ne %15
+  De -- us, A -- gnus
+  De -- i, Fi -- li -- us
+  Pa -- tris.
+
+  Cum San -- cto Spi -- ri -- tu in %35
+  glo -- ri -- a De -- i Pa -- tris, a -- men,
+  a -- _ _ _
+  men, a -- men, a --
+  men, a -- men. %39 finis
+}
