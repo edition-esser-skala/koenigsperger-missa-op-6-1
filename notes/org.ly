@@ -159,3 +159,49 @@ GloriaBassFigures = \figuremode {
   <3>4. q8 <7 5>4 <4>8 <3>
   r1 %39 finis
 }
+
+CredoOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoCredo
+    \mvTr c8\fE-\tutti c c c g' g16 a h8 g
+    c4 f,8 f g g, r4
+    c8 d e e f f f f
+    g c, g' g, c \mvTr c\p-\solo e c
+    g' g f f e c g' g %5
+    c c, e c g' g16 a h8 g
+    c h a f g f e d
+    c e g g, c c'\fE h a
+    g a\pE h g d e fis d
+    g g, g' g, d' d e e %10
+    d e fis d g h, d d,
+    g g'16-! a-! g-! f!-! e-! d-! \tempoEtIncarnatus \mvTr c4\fE-\tutti c8 c
+    g' a h g c4 c,8 c
+    g'4 g e8 e e e
+    f8. f16 f8 f g4 c, %15
+    g'4. g,8 c4 c
+    f c f2
+    c r\fermata \bar "|." %18 finis
+  }
+}
+
+CredoBassFigures = \figuremode {
+  <8 5>2. <[6]>4
+  r \bo <[8] 6>8 \bc <[7] 5> r2
+  r4 <6>8 <5> r4 \bo <[8] 6>8 \bc <[7] 5>
+  r4 <4>8 <3> r2
+  <4>8 <3> <\t>4 <6>2 %5
+  r4 <6>2.
+  r8 \bo <[6]>4 \bc q4. <6>8 q
+  r4 <4>8 <3> r4 <[6]>8 <6\\>
+  r2 <_+>
+  r <_+>4 <3> %10
+  <_+>2 r8 <[6]> <4> <_+>
+  r2 <8 5>
+  r1
+  <5>2 <6>
+  r4. <6>8 r2 %15
+  <4>4. <3>8 <3>2
+  r1
+  r %18 finis
+}

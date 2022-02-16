@@ -133,3 +133,49 @@ GloriaBassoLyrics = \lyricmode {
   men, a -- men, a --
   men, a -- men. %39 finis
 }
+
+CredoBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoCredo
+    \mvTr c8\fE^\tuttiE c'16 c c8 c, g' g16 a h8 g
+    c4 f,8 f g g, r4
+    c8 d e e16 e f8 f16 f f8 f
+    g c, g'8. g,16 c8 \mvTr c([\pE^\solo e)] c
+    g' g f f e c g' g %5
+    c c,16 c e8 c16 c g'8 g16 a h8 g
+    c h16 h a8 f16 f g8 f e d16 d
+    c8 e g([ g,)] c4 r
+    g'8. a16 h8 g d e fis d
+    g g, g' g d4 e %10
+    d8 e fis d g h,16 h d8.\trill d16
+    g,4 r \tempoEtIncarnatus \mvTr c\fE^\tuttiE c'8 c
+    g8. a16 h8 g c4 c,8 c
+    g'4 g e8 e e e
+    f8. f16 f8 f g4 c, %15
+    g'4. g,8 c4 c
+    f c f4. f8
+    c4 r r2\fermata \bar "|." %18 finis
+  }
+}
+
+CredoBassoLyrics = \lyricmode {
+  Pa -- trem o -- mni -- po -- ten -- tem, fa -- cto -- rem
+  coe -- li et ter -- rae,
+  vi -- si -- bi -- li -- um o -- mni -- um et in --
+  vi -- si -- bi -- li -- um. Et __ ex
+  Pa -- tre, Pa -- tre na -- tum an -- te %5
+  o -- mni -- a sae -- cu -- la. De -- um de De -- o,
+  lu -- men de lu -- mi -- ne, De -- um ve -- rum de
+  De -- o ve -- ro.
+  Ge -- ni -- tum non, non, non fa -- ctum,
+  con -- sub -- stan -- ti -- a -- lem %10
+  Pa -- tri, per quem o -- mni -- a fa -- cta
+  sunt. Et in -- car --
+  na -- tus est de Spi -- ri -- tu
+  San -- cto ex Ma -- ri -- a
+  Vir -- gi -- ne, et ho -- mo %15
+  fa -- ctus est, et
+  ho -- mo fa -- ctus
+  est. %18 finis
+}

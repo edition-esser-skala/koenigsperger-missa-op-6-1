@@ -95,3 +95,37 @@ GloriaTenoreLyrics = \lyricmode {
   men, a -- men, a --
   men, a -- men. %39 finis
 }
+
+CredoTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoCredo
+    \mvTr e8\fE^\tuttiE c16 c c8 c h h16 h h8 h
+    c4 a8 a d h r4
+    e8 e c c16 c c8 c16 c a8 a
+    d e d8.\trill d16 e4 r
+    R1*7 %11
+    r2 \tempoEtIncarnatus \mvTr c4\fE^\tuttiE c8 c
+    h8. h16 h8 h c4 c8 c
+    h4 h e8 c e e
+    c8. c16 c8 a d4 e %15
+    d4. d8 e4 c
+    c c c4. c8
+    c4 r r2\fermata \bar "|." %18 finis
+  }
+}
+
+CredoTenoreLyrics = \lyricmode {
+  Pa -- trem o -- mni -- po -- ten -- tem, fa -- cto -- rem
+  coe -- li et ter -- rae,
+  vi -- si -- bi -- li -- um o -- mni -- um et in --
+  vi -- si -- bi -- li -- um.
+
+  Et in -- car -- %12
+  na -- tus est de Spi -- ri -- tu
+  San -- cto ex Ma -- ri -- a
+  Vir -- gi -- ne, et ho -- mo %15
+  fa -- ctus est, et
+  ho -- mo fa -- ctus
+  est. %18 finis
+}

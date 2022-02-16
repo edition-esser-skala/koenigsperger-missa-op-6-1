@@ -69,3 +69,25 @@ GloriaViolinoII = {
     c4 d e r\fermata \bar "|." %39 finis
   }
 }
+
+CredoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredo
+    g'8\fE g g g h16 g h d h8 h
+    g4 a8 a h16 g' d h g d h g
+    g'8 g g g f f a a
+    g g g d e4 r
+    R1*3 %7
+    r2 r8 g\fE g fis
+    g r r4 r2
+    R1*2 %11
+    r2 \tempoEtIncarnatus g4\fE g8 g
+    h8. h16 h8 h c4 g8 g
+    h4 h g8 g g g
+    a8. f16 f8 a g4 g %15
+    d4. d8 e4 e'
+    a,8 a g g a4. a8
+    g4 r r2\fermata \bar "|." %18 finis
+  }
+}

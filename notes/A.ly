@@ -95,3 +95,37 @@ GloriaAltoLyrics = \lyricmode {
   men, a -- men, a --
   men, a -- men. %39 finis
 }
+
+CredoAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoCredo
+    \mvTr g'8\fE^\tuttiE g16 g g8 g g g16 g g8 g
+    g4 f8 e d d r4
+    g8 g g g16 g f8 f16 f f8 e
+    g g g8. g16 g4 r
+    R1*7 %11
+    r2 \tempoEtIncarnatus \mvTr g4\fE^\tuttiE g8 g
+    g8. g16 g8 g g4 g8 g
+    g4 g g8 g g g
+    f8. f16 f8 a g4 g %15
+    g4. g8 g4 e
+    f e f4. f8
+    e4 r r2\fermata \bar "|." %18 finis
+  }
+}
+
+CredoAltoLyrics = \lyricmode {
+  Pa -- trem o -- mni -- po -- ten -- tem, fa -- cto -- rem
+  coe -- li et ter -- rae,
+  vi -- si -- bi -- li -- um o -- mni -- um et in --
+  vi -- si -- bi -- li -- um.
+
+  Et in -- car -- %12
+  na -- tus est de Spi -- ri -- tu
+  San -- cto ex Ma -- ri -- a
+  Vir -- gi -- ne, et ho -- mo %15
+  fa -- ctus est, et
+  ho -- mo fa -- ctus
+  est. %18 finis
+}
