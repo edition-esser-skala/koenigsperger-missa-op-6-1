@@ -129,3 +129,90 @@ CredoAltoLyrics = \lyricmode {
   ho -- mo fa -- ctus
   est. %18 finis
 }
+
+SanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr g'4\fE^\tuttiE g g2
+    g e4 e
+    f f8 f g4 g
+    g4. g8 g4 r
+    R1*3 %7
+    r2 r4 \mvTr g8\fE^\tuttiE g16 g \noBreak
+    g8 g16 g g4 g r\fermata \bar "||"
+    \tempoOsanna R1*10 %19
+    r4 r8 \mvTr g\fE^\tuttiE g a g g %20
+    g g r g g g g g
+    g g r g g2
+    g4 h g2
+    g4 g8 g g g g g
+    g g r4 r2\fermata \bar "||" %25
+    \tempoBenedictus R1*9 %34
+    R1\fermata \markOsannaUtSupra \bar "||" %35 finis
+  }
+}
+
+SanctusAltoLyrics = \lyricmode {
+  San -- ctus, san --
+  ctus, san -- ctus
+  Do -- mi -- nus De -- us
+  Sa -- ba -- oth.
+
+  Glo -- ri -- a, %8
+  glo -- ri -- a tu -- a.
+
+  O -- san -- na in ex -- %20
+  cel -- sis, o -- san -- na in ex --
+  cel -- sis, o -- san --
+  _ _ _
+  _ na, o -- san -- na in ex --
+  cel -- sis. %25 finis
+}
+
+AgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoAgnus
+    R1*6 %6
+    r2 \mvTr g'8\fE^\tuttiE g g g16 g
+    g4 g8 g e e16 e a8 a
+    g g g g g4 g \noBreak
+    g2 g4 r\fermata \bar "||" %10
+    \tempoKyrieB R1*14 %24
+    r2 \mvTr g8.\fE^\tuttiE g16 g8 g %25
+    g4 g8 g g4 g8 g
+    g g r e f16[ e f g] f[ e f c]
+    e[ d e f] e[ d e c] d[ c d e] d[ c d h]
+    g'4 g8 g g2
+    g4 r r2 %30
+    R1*2
+    r2 \mvTr g8.\fE^\tuttiE g16 g8 g
+    g4 g8 g g4 g8 g
+    g g r e f16[ e f g] f[ e f c] %35
+    e[ d e f] e[ d e c] d[ c d e] d[ c d h]
+    c4 g'8 g g2
+    g4 r8 g g g r4\fermata \bar "|." %38 FINIS
+  }
+}
+
+AgnusAltoLyrics = \lyricmode {
+  A -- gnus De -- i, qui %7
+  tol -- lis, qui tol -- lis pec -- ca -- ta
+  mun -- di: Do -- na no -- bis
+  pa -- cem. %10
+
+  Do -- na no -- bis %25
+  pa -- cem, da pa -- cem, da
+  pa -- cem, da pa -- _
+  _ _ _ _
+  _ cem, da pa --
+  cem. %30
+
+  Do -- na no -- bis %33
+  pa -- cem, da pa -- cem, da
+  pa -- cem, da pa -- _ %35
+  _ _ _ _
+  _ cem, da pa --
+  cem, da pa -- cem. %38 FINIS
+}

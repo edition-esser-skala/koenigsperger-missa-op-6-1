@@ -179,3 +179,141 @@ CredoBassoLyrics = \lyricmode {
   ho -- mo fa -- ctus
   est. %18 finis
 }
+
+SanctusBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr c4\fE^\tuttiE c c2
+    c c4 c
+    f f8 f f4 e8([ f)]
+    g4. g,8 c4 r
+    R1*3 %7
+    r2 r4 \mvTr g'8\fE^\tuttiE g16 g \noBreak
+    c8 c,16 c g'8([ g,)] c4 r\fermata \bar "||"
+    \tempoOsanna r4 r8 \mvTr c\pE^\soloE c16([ a')] g([ f)] e[( d)] c([ h)] \noBreak %10
+    c8 c r e d e f16([ d)] e([ c)]
+    h8 g r d' e16([ f)] g4 f16([ e)]
+    d([ e)] f4 e16([ d)] c([ d)] e4 d16([ c)]
+    h([ a)] g8 r d' e8. g16 fis8. a16
+    g8 g r4 r2 %15
+    R1*4
+    r4 r8 \mvTr c,\fE^\tuttiE c f g g, %20
+    c c r c' g c, h c
+    g' g, r g c16([ d)] e4 d16([ c)]
+    h([ c)] d4 c16[ h] e[ d] c4 d16([ e)]
+    g4 g8 g c e, g g, \noBreak
+    c c r4 r2\fermata \bar "||" %25
+    \tempoBenedictus R1*2
+    r2 \mvTr a'8.\pE^\soloE c16 c8 h16 a
+    h8([ e,)] e e a h16 c h8. a16
+    gis4 r8 h c16([ h c a)] d[ c h a] %30
+    h([ a h g)] c[ h a g] a[ g f e] f[ e d c]
+    h8 g r f' e d16 c d8.\trill d16
+    c4 r8 c' a16([ gis a8)] a16[ c h a]
+    gis8 e r a f d16 f e8.\trill e16
+    a,4 r r2\fermata \markOsannaUtSupra \bar "||" %35 finis
+  }
+}
+
+SanctusBassoLyrics = \lyricmode {
+  San -- ctus, san --
+  ctus, san -- ctus
+  Do -- mi -- nus De -- us __
+  Sa -- ba -- oth.
+
+  Glo -- ri -- a, %8
+  glo -- ri -- a tu -- a.
+  O -- san -- na in ex -- %10
+  cel -- sis, o -- san -- na in ex --
+  cel -- sis, o -- san -- _ _
+  _ _ _ _ _ _
+  _ na, o -- san -- na in ex --
+  cel -- sis. %15
+
+  O -- san -- na in ex -- %20
+  cel -- sis, o -- san -- na in ex --
+  cel -- sis, o -- san -- _ _
+  _ _ _ _ _ _
+  _ na, o -- san -- na in ex --
+  cel -- sis. %25
+
+  Be -- ne -- di -- ctus, qui %28
+  ve -- nit in no -- mi -- ne Do -- mi --
+  ni, qui ve -- _ %30
+  _ _ _ _
+  _ nit in no -- mi -- ne Do -- mi --
+  ni, qui ve -- _
+  _ nit in no -- mi -- ne Do -- mi --
+  ni. %35 finis
+}
+
+AgnusBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoAgnus
+    R1*3
+    \mvTr g'8\pE^\solo h h a16 g a8([ d,)] d a'
+    g([ a16 h] a8) g fis d g fis %5
+    e4 h8([ c)] d4( d,)
+    g r \mvTr c8\fE^\tuttiE c c e16 e
+    g4 g8 g a g16 g fis8 d
+    g g e c g'4 c
+    g( g,) c r\fermata \bar "||" %10
+    \tempoKyrieB R1*5 %15
+    \mvTr c8.\pE^\solo c16 c8 c d4 d8 d
+    e4 e8 e d d r g
+    a16[ g a b] a[ f g a] g[ f g a] g[ e f g]
+    f[ e f g] f[ d e f] e4 e8 c'
+    h a16 g a4\trill g r %20
+    R1*4
+    r2 \mvTr c,8.\fE^\tuttiE ^\tweak TextScript.X-offset #-2 ^\critnote d16 e8 c %25
+    g'([ a)] h g c4 c,8 c
+    g' g r c, f4 r8 f
+    c4 r8 c g4 r8 g'
+    c,4 c8 g' c([ e, g g,)]
+    c4 r \mvTr a'8.\pE^\solo a16 a8 a %30
+    h16([ a h c] h[ c d h] c8) a r4
+    r2 a8.^\critnote a16 a8 a
+    g!4~ g16[ f] e([ d)] \mvTr c8.\fE^\tuttiE d16 e8 c
+    g'([ a)] h g c4 c,8 c
+    g' g r c, f4 r8 f %35
+    c4 r8 c g4 r8 g'
+    c,4 c8 g' c([ e, g g,)]
+    c4 r8 g' c c, r4\fermata \bar "|." %38 FINIS
+  }
+}
+
+AgnusBassoLyrics = \lyricmode {
+  A -- gnus De -- i, qui tol -- lis pec -- %4
+  ca -- ta mun -- di: Mi -- se -- %5
+  re -- re no --
+  bis.
+
+  A -- gnus De -- i, qui %7
+  tol -- lis, qui tol -- lis pec -- ca -- ta
+  mun -- di: Do -- na no -- bis
+  pa -- cem. %10
+
+  Do -- na no -- bis %16
+  pa -- cem, da pa -- cem, da
+  pa -- cem, da pa -- _
+  _ _ _ _
+  _ cem, da pa -- cem, da pa -- %20
+  cem.
+
+  Do -- na no -- bis %25
+  pa -- cem, da pa -- cem, da
+  pa -- cem, da pa -- _
+  _ _ _ _
+  _ cem, da pa --
+  cem. Do -- na no -- bis %30
+  pa -- cem,
+  do -- na no -- bis
+  pa -- cem. Do -- na no -- bis
+  pa -- cem, da pa -- cem, da
+  pa -- cem, da pa -- _ %35
+  _ _ _ _
+  _ cem, da pa --
+  cem, da pa -- cem. %38 FINIS
+}

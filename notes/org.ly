@@ -205,3 +205,169 @@ CredoBassFigures = \figuremode {
   r1
   r %18 finis
 }
+
+SanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoSanctus
+    \mvTr c4\fE-\tutti c c2
+    c c4 c
+    f f8 f f4 e8 f
+    g4 g, c8 c-\solo c c
+    g4 r8 c g4 r8 c %5
+    g4 r8 g c e g g,
+    c c\p c c g4 r8 c
+    g4 r8 g g g \mvTr g'\fE-\tutti g \noBreak
+    c c, g' g, c4 r\fermata \bar "||"
+    \tempoOsanna \mvTr c8\pE-\solo d e d c f g g, \noBreak %10
+    c c16 d e8 c g c d c
+    g g16 a h8 g c c c c
+    g g g g c c c c
+    g g16 a h8 g c c d d,
+    g4 r8 g' g a h d %15
+    g, g16 a h8 g d g a g
+    d d16 e fis8 d g g, g g
+    d' d d d g,4 r8 g
+    d' d16 e fis8 d g h, d d,
+    g g'16-!\fE a-! g-! f!-! e-! d-! c8-\tutti f g g, %20
+    c c r c' g c, h c
+    g' g, r g c16 d e4 d16 c
+    h c d4 c16 h e d c4 e8
+    g4 g8 g c e, g g, \noBreak
+    c c r4 r2\fermata \bar "||" %25
+    \tempoBenedictus \mvTr a8\fE-\solo a a a gis' gis gis e \noBreak
+    f f d d e fis gis e
+    a c, e e, a\pE a a a
+    e' fis gis e c a d d
+    e fis gis e a a d, d %30
+    g g c, c f f f f
+    g g,16 a h8 g c e g g,
+    c e16-! d-! c8 a f' f d d
+    e e16 fis gis8 a f d e e,
+    a4 r r2 \markOsannaUtSupra \bar "||" %35 finis
+  }
+}
+
+SanctusBassFigures = \figuremode {
+  <8 5>1
+  r2 <5>
+  r <6 4 2>4 <6>
+  <5 4>4. <\t 3>8 r2
+  r1 %5
+  r2. <4>8 <3>
+  r1
+  r4. <6 4>8 <5 3>4 <5>
+  r <4>8 <3> r2
+  r2. <4>8 <3> %10
+  r4 <[6]> r <6>
+  r1
+  <7 5>
+  r4 <[6]>2 <4>8 <_+>
+  r2. <6>8 <_+> %15
+  r4 <6> <_+> <6\\>
+  <_+>1
+  <7 5 _+>
+  <_+>2 r8 <[6]> <4> <_+>
+  r2. <4>8 <3> %20
+  r2. <5>4
+  r2 <8 5>8 <\t \t>4.
+  <3>16 q <_!>4. <6> q8
+  r4 <5> r8 <[6]> <4> <3>
+  r1 %25
+  r2 <6>4. <[_+]>8
+  r4 <[7]>8 <6>16 <5> <_+>4. <7 5 [_+]>8
+  r <[6]> <4> <_+> <_!>2
+  <_+> <6>4  q8 <5>
+  <_+>2 <_!>4 q %30
+  r1
+  r4. <7 5>4 <[6]>8 <4> <3>
+  r4 <6>2 <5>8 <6>
+  <_+>4. <_!>8 r4 <4>8 <_+>
+  r1 %35 finis
+}
+
+AgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoAgnus
+    \mvTr c8\pE-\solo c c e g a h g
+    a g fis? d g g e e
+    fis fis g g, d' c d d,
+    g g g h d e fis d
+    e d cis a d d h h %5
+    c c h c d c d d,
+    g g'16-!\fE a-! g-! f!-! e-! d-! c8-\tutti c c e
+    g a h g a g fis d
+    g g e c g'4 c \noBreak
+    g g, c r\fermata \bar "||" %10
+    \tempoKyrieB c8-\solo d e c g' a h g \noBreak
+    c, d e f g g16 a h8 c
+    f,4 r8 f c4 r8 c
+    g4 r8 g c d e g
+    c, e g g, c4 r %15
+    c8\pE d e c g a h g
+    c d e c g g16 a h8 c
+    f f, r f' c4 r8 c
+    g g g g c d e fis
+    g h, d d, g a h g %20
+    d' e fis d g g, h g
+    d' d16 e fis8 g c c, r c
+    g' g g g d4 r8 d
+    g4 g8 d g h, d d,
+    g g'16-! a-! g-! f!-! e-! d-! \mvTr c8\fE-\tutti d e c %25
+    g' a h g c4 c8 c,
+    g' g r c, f4 r8 f
+    c4 r8 c g4 r8 g
+    c d e g c e, g g,
+    c e16-! d-! c8-! h-! \mvTr a\pE-\soloE h c a %30
+    e' fis gis e a a,16 h c8 a
+    e' fis gis e a a,16 h c8 a'
+    g!4 g16 f e d \mvTr c8\fE-\tutti d e c
+    g' a h g c4 c,8 c
+    g' g r c, f4 r8 f %35
+    c4 r8 c g4 r8 g
+    c4 c8 g' c e, g g,
+    c4 r8 g' c c, r4\fermata \bar "|." %38 FINIS
+  }
+}
+
+AgnusBassFigures = \figuremode {
+  r4. <6>8 r2
+  <_!>4 <6>8 <[7 _+]> r4 <6>
+  <6 5>2 <4>4 <_+>
+  r4. <6>8 <_+>2
+  <_!>4 <6>8 <[7 _+]> <_+>4 <6>8 <5+> %5
+  r4 <6> <4> <_+>
+  r2 <8 5>4. <[6]>8
+  r2 <_!>4 <5>8 <[7 _+]>
+  r4 <6>2.
+  <4>4 <3>2. %10
+  <8 5>1
+  r
+  r
+  <7 5>2. <6>8 <7 5>
+  r4 <4>8 <3> r2 %15
+  r1
+  r
+  r
+  <7 5>2.. <5>8
+  r8 <[6]> <4> <_+> r2 %20
+  <_+>2. <6>4
+  <_+>1
+  r2 <7 5 _+>
+  r4. <_+>4 <[6]>8 <4> <_+>
+  r2 <5 3> %25
+  r4 <6>2.
+  r1
+  r2 <7 5>
+  r4 <[6]>8 <7 5>4 <[6]>8 <4> <3>
+  r2 <_!> %30
+  <_+> <_!>
+  <_+> <_!>4. q8
+  <5>2 <8 5>
+  r1
+  r %35
+  r2 <7 5>
+  r2 r8 \bo <[6]> <4> \bc <[3]>
+  r1 %38 FINIS
+}
