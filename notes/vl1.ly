@@ -138,7 +138,7 @@ SanctusViolinoI = {
     d8 g,16 a h8 g c e g g,
     c4 r r2
     r4 r8 e' a a, h8.\trill h16
-    a4 r r2 \markOsannaUtSupra \bar "||" %35 finis
+    a4 r r2\fermata \markOsannaUtSupra \bar "||" %35 finis
   }
 }
 
