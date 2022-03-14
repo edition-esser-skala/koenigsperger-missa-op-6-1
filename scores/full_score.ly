@@ -84,6 +84,7 @@
         >>
         \new Staff {
           \set Staff.instrumentName = "timp"
+          \GloriaTimpani
         }
         \new StaffGroup <<
           \new GrandStaff <<
@@ -149,6 +150,7 @@
         >>
         \new Staff {
           \set Staff.instrumentName = "timp"
+          \CredoTimpani
         }
         \new StaffGroup <<
           \new GrandStaff <<
@@ -214,6 +216,7 @@
         >>
         \new Staff {
           \set Staff.instrumentName = "timp"
+          \SanctusTimpani
         }
         \new StaffGroup <<
           \new GrandStaff <<
@@ -279,6 +282,7 @@
         >>
         \new Staff {
           \set Staff.instrumentName = "timp"
+          \AgnusTimpani
         }
         \new StaffGroup <<
           \new GrandStaff <<
